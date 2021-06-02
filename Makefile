@@ -7,7 +7,7 @@ OUT_GIR_DIR = out/src/pkg.deepin.io/gir/
 all: build
 
 CURRENT_DIR = $(shell pwd)
-export GOPATH = $(CURDIR):$(CURDIR)/vendor:$(CURDIR)/out
+export GOPATH = $(CURDIR):$(CURDIR)/out
 
 GENERATOR = out/gir-generator
 
